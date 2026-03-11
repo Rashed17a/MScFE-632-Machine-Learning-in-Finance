@@ -17,6 +17,7 @@ This project applies **deep learning** — specifically **Long Short-Term Memory
 |------|------|-------------|
 | `GWP3_Team_Member_A.ipynb` | 📓 Notebook | Technical implementation — Team Member A |
 | `GWP3_Team_Member_B.ipynb` | 📓 Notebook | Technical implementation — Team Member B |
+| `Final_Report.pdf` | 📄 PDF | Written non-technical report |
 | `Guideline.pdf` | 📋 PDF | Project guideline from WQU |
 
 ---
