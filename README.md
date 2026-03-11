@@ -14,11 +14,12 @@
 
 This repository contains all Group Work Projects (GWPs) completed for **MScFE 632 — Machine Learning in Finance** at **WorldQuant University**. The course covers the theory and practical application of machine learning techniques in financial markets, including unsupervised learning, supervised classification, and deep learning for portfolio optimization.
 
-Each project includes:
-- 📄 A written report (PDF)
-- 🧑‍💻 Technical implementation via Google Colab notebooks (Team Member A & B)
-- 📁 Supporting datasets (CSV files)
-- 📋 Project guidelines
+Each project folder contains:
+- 📓 Technical Colab notebooks (Team Member A & B) — **uploaded directly**
+- 📄 Final written report (PDF) — *to be uploaded*
+- 📋 Project guideline (PDF) — *to be uploaded*
+- 📊 Dataset (CSV files) — *to be uploaded*
+- 📘 Project-level README.md with full methodology
 
 ---
 
@@ -27,30 +28,30 @@ Each project includes:
 ```
 MScFE-632-Machine-Learning-in-Finance/
 │
-├── GWP1/                          # Unsupervised Learning — Stock Clustering
-│   ├── README.md                  # Project summary
-│   ├── Guideline.pdf              # Project guideline
-│   ├── Final_Report.pdf           # Written report
-│   ├── dataset_1.csv              # Dataset 1
-│   ├── dataset_2.csv              # Dataset 2
-│   ├── Notebook_Team_Member_A.ipynb
-│   └── Notebook_Team_Member_B.ipynb
+├── GWP1/                                    # Unsupervised Learning — Stock Clustering
+│   ├── README.md                            ✅ Project summary & methodology
+│   ├── GWP1_Team_Member_A.ipynb             ✅ Notebook — Team Member A
+│   ├── GWP1_Team_Member_B.ipynb             ✅ Notebook — Team Member B
+│   ├── Final_Report.pdf                     ⏳ Written report (upload manually)
+│   ├── Guideline.pdf                        ⏳ Project guideline (upload manually)
+│   ├── dataset_1.csv                        ⏳ Dataset 1 (upload manually)
+│   └── dataset_2.csv                        ⏳ Dataset 2 (upload manually)
 │
-├── GWP2/                          # Supervised Learning — Market Regime Classification
-│   ├── README.md                  # Project summary
-│   ├── Guideline.pdf              # Project guideline
-│   ├── Final_Report.pdf           # Written report
-│   ├── dataset.csv                # Dataset
-│   ├── Notebook_Team_Member_A.ipynb
-│   └── Notebook_Team_Member_B.ipynb
+├── GWP2/                                    # Supervised Learning — Market Regime Classification
+│   ├── README.md                            ✅ Project summary & methodology
+│   ├── GWP2_Team_Member_A.ipynb             ✅ Notebook — Team Member A
+│   ├── GWP2_Team_Member_B.ipynb             ✅ Notebook — Team Member B
+│   ├── Final_Report.pdf                     ⏳ Written report (upload manually)
+│   ├── Guideline.pdf                        ⏳ Project guideline (upload manually)
+│   └── dataset.csv                          ⏳ Dataset (upload manually)
 │
-├── GWP3/                          # Deep Learning — Portfolio Optimization
-│   ├── README.md                  # Project summary
-│   ├── Guideline.pdf              # Project guideline
-│   ├── Notebook_Team_Member_A.ipynb
-│   └── Notebook_Team_Member_B.ipynb
+├── GWP3/                                    # Deep Learning — LSTM Portfolio Optimization
+│   ├── README.md                            ✅ Project summary & methodology
+│   ├── GWP3_Team_Member_A.ipynb             ✅ Notebook — Team Member A
+│   ├── GWP3_Team_Member_B.ipynb             ✅ Notebook — Team Member B
+│   └── Guideline.pdf                        ⏳ Project guideline (upload manually)
 │
-└── README.md                      # Main repository overview (this file)
+└── README.md                                ✅ Main repository overview (this file)
 ```
 
 ---
@@ -59,48 +60,51 @@ MScFE-632-Machine-Learning-in-Finance/
 
 ### 🔵 GWP 1 — Unsupervised Learning: Stock Clustering in Financial Markets
 
-> **Topic:** Applying unsupervised machine learning (K-Means & Hierarchical Clustering) to identify stock market regimes and sector groupings.
+> **Topic:** Applying K-Means & Hierarchical Clustering to identify stock market groupings and sector patterns during the 2008 Financial Crisis.
 
 | Resource | Link |
 |----------|------|
-| 📋 Guideline | [View Guideline (Google Drive)](https://drive.google.com/file/d/1fif_w0oM9UQCY0i107j4KZrPBnFTjcFT/view) |
-| 📊 Dataset 1 (CSV) | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1nXpqKyao-yfAzCblZj5sZiZ-hvaJX46sEVhuR54Zy80/edit?gid=125658626#gid=125658626) |
-| 📊 Dataset 2 (CSV) | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1jp_N85YSPMvnzD0yjxsItj-ZXL7p80k6mpWxzLZp7Cc/edit?gid=745697357#gid=745697357) |
+| 📘 Project README | [GWP1/README.md](./GWP1/README.md) |
 | 🧑‍💻 Notebook — Team Member A | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kzlPNnUv9Vz9T9UX1IRbpPJJZ_5xj4Gb) |
 | 👤 Notebook — Team Member B | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cv3SjUVmS2RjuVpZzljmGbhAjKBH9Abc) |
-| 📄 Final Report (PDF) | [Download Report](https://wqet-production-uploads-7dm4.s3.us-east-1.amazonaws.com/326044f022cd8aef34196d1f996d2e1e193378d24e1b7f47cdac56d51f26a73d.pdf) |
+| 📊 Dataset 1 (CSV) | [Google Sheets](https://docs.google.com/spreadsheets/d/1nXpqKyao-yfAzCblZj5sZiZ-hvaJX46sEVhuR54Zy80/edit?gid=125658626#gid=125658626) |
+| 📊 Dataset 2 (CSV) | [Google Sheets](https://docs.google.com/spreadsheets/d/1jp_N85YSPMvnzD0yjxsItj-ZXL7p80k6mpWxzLZp7Cc/edit?gid=745697357#gid=745697357) |
+| 📋 Guideline | [Google Drive](https://drive.google.com/file/d/1fif_w0oM9UQCY0i107j4KZrPBnFTjcFT/view) |
+| 📄 Final Report | [Download PDF](https://wqet-production-uploads-7dm4.s3.us-east-1.amazonaws.com/326044f022cd8aef34196d1f996d2e1e193378d24e1b7f47cdac56d51f26a73d.pdf) |
 
-**Key Methods:** K-Means Clustering · Hierarchical Clustering · Dendrogram Analysis · PCA · Silhouette Score
+**Key Methods:** K-Means Clustering · Hierarchical Clustering · Dendrogram · PCA · Silhouette Score
 
 ---
 
 ### 🟢 GWP 2 — Supervised Learning: Market Regime Classification with SVM
 
-> **Topic:** Using Support Vector Machines (SVM) and other supervised classifiers to identify and predict financial market regimes based on historical data and engineered features.
+> **Topic:** Using Support Vector Machines (SVM) to classify and predict financial market regimes (bull/bear/neutral) from engineered features.
 
 | Resource | Link |
 |----------|------|
-| 📋 Guideline | [View Guideline (Google Drive)](https://drive.google.com/file/d/1Fbc5t-bsbZfkMp-vSqJQODpIJyLkdZVI/view) |
-| 📊 Dataset (CSV) | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1lk4KJzXPWAG2BDJdy5572qjA7MMiJLf72QtOWodVsNA/edit?gid=858330135#gid=858330135) |
+| 📗 Project README | [GWP2/README.md](./GWP2/README.md) |
 | 🧑‍💻 Notebook — Team Member A | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mAHH62LApMyhyzYikPjy6Ld7ITf2-jOy) |
 | 👤 Notebook — Team Member B | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JmJWVPMYRUEbAEQMHzZp4344NBlHcfJV) |
-| 📄 Final Report (PDF) | [Download Report](https://wqet-production-uploads-7dm4.s3.us-east-1.amazonaws.com/9fb360c2bffecf2f64b9a4d8c3a1b06f909e5b71ba41da394bcf7b8b2ba20249.pdf) |
+| 📊 Dataset (CSV) | [Google Sheets](https://docs.google.com/spreadsheets/d/1lk4KJzXPWAG2BDJdy5572qjA7MMiJLf72QtOWodVsNA/edit?gid=858330135#gid=858330135) |
+| 📋 Guideline | [Google Drive](https://drive.google.com/file/d/1Fbc5t-bsbZfkMp-vSqJQODpIJyLkdZVI/view) |
+| 📄 Final Report | [Download PDF](https://wqet-production-uploads-7dm4.s3.us-east-1.amazonaws.com/9fb360c2bffecf2f64b9a4d8c3a1b06f909e5b71ba41da394bcf7b8b2ba20249.pdf) |
 
-**Key Methods:** Support Vector Machines (SVM) · Feature Engineering · Cross-Validation · Confusion Matrix · ROC-AUC · Backtesting
+**Key Methods:** SVM · Feature Engineering · TimeSeriesSplit CV · ROC-AUC · Backtesting
 
 ---
 
 ### 🟠 GWP 3 — Deep Learning: LSTM-Based Portfolio Optimization
 
-> **Topic:** Leveraging Long Short-Term Memory (LSTM) networks and deep learning architectures for time-series forecasting and portfolio construction with feature-driven trading signals.
+> **Topic:** LSTM networks + Random Forest signals for adaptive portfolio weight allocation and time-series forecasting.
 
 | Resource | Link |
 |----------|------|
-| 📋 Guideline | [View Guideline (Google Drive)](https://drive.google.com/file/d/1ELr2Q7HOLT4VjStrOaF9Usi0Lsv6EpJY/view) |
+| 📙 Project README | [GWP3/README.md](./GWP3/README.md) |
 | 🧑‍💻 Notebook — Team Member A | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MOdphNcDbjouzm-BxD5uD0LkAiuPgLO7) |
 | 👤 Notebook — Team Member B | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NUYzzry_ynyH0CHHs0z0ukquzfArSzA2) |
+| 📋 Guideline | [Google Drive](https://drive.google.com/file/d/1ELr2Q7HOLT4VjStrOaF9Usi0Lsv6EpJY/view) |
 
-**Key Methods:** LSTM · Random Forest Signals · Feature Engineering · Portfolio Backtesting · Hyperparameter Optimization
+**Key Methods:** LSTM · PyTorch · Random Forest Signals · Reinforcement Learning Env · Bayesian Hyperparameter Optimization
 
 ---
 
@@ -111,10 +115,10 @@ MScFE-632-Machine-Learning-in-Finance/
 | **Language** | Python 3.x |
 | **Environment** | Google Colab / Jupyter Notebook |
 | **Data Manipulation** | pandas, NumPy |
-| **Visualization** | Matplotlib, Seaborn, Plotly |
-| **Machine Learning** | scikit-learn |
-| **Deep Learning** | TensorFlow / Keras |
-| **Finance** | yfinance, QuantStats |
+| **Visualization** | Matplotlib, Seaborn |
+| **Machine Learning** | scikit-learn, scikit-optimize |
+| **Deep Learning** | PyTorch (torch, nn, optim) |
+| **Finance** | yfinance, custom portfolio environments |
 
 ---
 
@@ -128,6 +132,23 @@ MScFE-632-Machine-Learning-in-Finance/
 | **Course Name** | Machine Learning in Finance |
 | **Cohort** | 25/05 |
 | **Projects** | GWP1 · GWP2 · GWP3 |
+
+---
+
+## 📂 Manual Uploads Needed
+
+The following files need to be uploaded manually to complete the repository. Upload to the GitHub links below:
+
+| File | Folder | Upload Link |
+|------|--------|-------------|
+| `Final_Report.pdf` (GWP1) | GWP1/ | [Upload to GWP1](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP1) |
+| `Guideline.pdf` (GWP1) | GWP1/ | [Upload to GWP1](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP1) |
+| `dataset_1.csv` (GWP1) | GWP1/ | [Upload to GWP1](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP1) |
+| `dataset_2.csv` (GWP1) | GWP1/ | [Upload to GWP1](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP1) |
+| `Final_Report.pdf` (GWP2) | GWP2/ | [Upload to GWP2](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP2) |
+| `Guideline.pdf` (GWP2) | GWP2/ | [Upload to GWP2](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP2) |
+| `dataset.csv` (GWP2) | GWP2/ | [Upload to GWP2](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP2) |
+| `Guideline.pdf` (GWP3) | GWP3/ | [Upload to GWP3](https://github.com/Rashed17a/MScFE-632-Machine-Learning-in-Finance/upload/main/GWP3) |
 
 ---
 
