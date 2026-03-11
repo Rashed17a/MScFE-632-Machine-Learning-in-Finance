@@ -1,24 +1,24 @@
 # 📙 GWP 3 — Deep Learning: LSTM-Based Portfolio Optimization
 
-> **MScFE 632 Machine Learning in Finance | WorldQuant University**
-> Cohort: 25/05 | Group Work Project 3
+**MScFE 632 Machine Learning in Finance | WorldQuant University**
+Cohort: 25/05 | Group Work Project 3
 
 ---
 
 ## 🎯 Project Objective
 
-This project applies **deep learning** — specifically **Long Short-Term Memory (LSTM) networks** — combined with **Random Forest signals** and **reinforcement learning principles** to build an intelligent, adaptive portfolio optimization system. The model learns from historical return patterns to generate trading signals and dynamically allocate portfolio weights.
+This project applies deep learning — specifically **Long Short-Term Memory (LSTM)** networks — combined with Random Forest signals and reinforcement learning principles to build an intelligent, adaptive portfolio optimization system. The model learns from historical return patterns to generate trading signals and dynamically allocate portfolio weights.
 
 ---
 
 ## 🗂️ Folder Contents
 
 | File | Type | Description |
-|------|------|-------------|
+|---|---|---|
 | `GWP3_Team_Member_A.ipynb` | 📓 Notebook | Technical implementation — Team Member A |
 | `GWP3_Team_Member_B.ipynb` | 📓 Notebook | Technical implementation — Team Member B |
-| `Final_Report.pdf` | 📄 PDF | Written non-technical report |
-| `Guideline.pdf` | 📋 PDF | Project guideline from WQU |
+| `GWP3_Final_Report.pdf` | 📄 PDF | Written non-technical report |
+| `Project guideline from WQU 3.pdf` | 📋 PDF | Project guideline from WQU |
 
 ---
 
@@ -42,7 +42,7 @@ This project applies **deep learning** — specifically **Long Short-Term Memory
 - Reward function: portfolio return per step
 
 **4. Hyperparameter Optimization (Team A)**
-- Bayesian Optimization with `scikit-optimize` (BayesSearchCV)
+- Bayesian Optimization with scikit-optimize (BayesSearchCV)
 - Optimized SVM and Random Forest models for market regime tasks
 - Convergence plots and performance vs. hyperparameter visualization
 
@@ -64,13 +64,15 @@ This project applies **deep learning** — specifically **Long Short-Term Memory
 
 ## 🛠️ Libraries Used
 
-```python
-# Team Member A
+**Team Member A:**
+```
 pandas, numpy, matplotlib, seaborn
 sklearn (RandomForestClassifier, SVC, TimeSeriesSplit)
 scikit-optimize (BayesSearchCV, skopt.plots)
+```
 
-# Team Member B
+**Team Member B:**
+```
 pandas, numpy, matplotlib
 torch (nn.LSTM, nn.Linear, Softmax)
 torch.optim (Adam)
@@ -82,10 +84,11 @@ sklearn (RandomForestClassifier, StandardScaler)
 ## 🔗 Quick Links
 
 | Resource | Link |
-|----------|------|
-| 📓 Notebook Team A | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MOdphNcDbjouzm-BxD5uD0LkAiuPgLO7) |
-| 📓 Notebook Team B | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NUYzzry_ynyH0CHHs0z0ukquzfArSzA2) |
-| 📋 Guideline | [Google Drive](https://drive.google.com/file/d/1ELr2Q7HOLT4VjStrOaF9Usi0Lsv6EpJY/view) |
+|---|---|
+| 📓 Notebook Team A | [GWP3_Team_Member_A.ipynb](./GWP3_Team_Member_A.ipynb) |
+| 📓 Notebook Team B | [GWP3_Team_Member_B.ipynb](./GWP3_Team_Member_B.ipynb) |
+| 📄 Final Report | [GWP3_Final_Report.pdf](./GWP3_Final_Report.pdf) |
+| 📋 Guideline | [Project guideline from WQU 3.pdf](<./Project guideline from WQU 3.pdf>) |
 
 ---
 
